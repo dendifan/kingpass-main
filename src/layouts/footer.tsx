@@ -12,21 +12,31 @@ export const Footer = () => {
         <FooterLink>Terms of use</FooterLink>
       </FooterLinks>
       <ExternalLinks>
-        <Icon>
-          <FaTelegramPlane style={{ width: '100%', height: 'auto' }} />
-        </Icon>
-        <Icon>
-          <FaTwitter style={{ width: '100%', height: 'auto' }} />
-        </Icon>
-        <Icon>
-          <FaYoutube style={{ width: '100%', height: 'auto' }} />
-        </Icon>
-        <Icon>
-          <FaGithub style={{ width: '100%', height: 'auto' }} />
-        </Icon>
-        <Icon>
-          <BsMedium style={{ width: '100%', height: 'auto' }} />
-        </Icon>
+        <a href={'https://t.me/KlNGfinance'} rel="noopener noreferrer">
+          <Icon>
+            <FaTelegramPlane style={{ width: '100%', height: 'auto' }} />
+          </Icon>
+        </a>
+        <a href={'https://twitter.com/kingfinance'} rel="noopener noreferrer">
+          <Icon>
+            <FaTwitter style={{ width: '100%', height: 'auto' }} />
+          </Icon>
+        </a>
+        <a href={'https://www.youtube.com/@kingfinanceco'} rel="noopener noreferrer">
+          <Icon>
+            <FaYoutube style={{ width: '100%', height: 'auto' }} />
+          </Icon>
+        </a>
+        <a rel="noopener noreferrer">
+          <Icon>
+            <FaGithub style={{ width: '100%', height: 'auto' }} />
+          </Icon>
+        </a>
+        <a href={'https://medium.com/@kingfinance'} rel="noopener noreferrer">
+          <Icon>
+            <BsMedium style={{ width: '100%', height: 'auto' }} />
+          </Icon>
+        </a>
       </ExternalLinks>
     </FooterContainer>
   );

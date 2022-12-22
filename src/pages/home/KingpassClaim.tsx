@@ -61,8 +61,8 @@ const KingpassClaimContainer = styled.div`
 const ClaimContentContainer = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 45px;
-  align-items: center;
+  gap: 30px;
+  align-items: flex-start;
   @media screen and (max-width: 768px) {
     gap: 10px;
   }
@@ -87,9 +87,10 @@ const ClaimTitle = styled.div`
 const ClaimContent = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
   width: 455px;
   font-size: 17px;
+  line-height: 30px;
   @media screen and (max-width: 1356px) {
     padding-left: 20px;
     padding-right: 20px;
